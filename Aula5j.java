@@ -31,6 +31,16 @@ public static void main(String[]args){
         pontuacao = pontuacao -10;
         System.out.println("Voce perdeu 10 pontos e está com " + pontuacao + " pontos");
     }
+    System.out.println("Digite um numero");
+    numero = leitura.nextInt();
+    if (numero == sorteio) {
+        System.out.println("Você acertou com " + pontuacao + " pontos.");    
+        leitura.close();
+        return;
+    }else{
+        pontuacao = pontuacao -10;
+        System.out.println("Voce perdeu 10 pontos e está com " + pontuacao + " pontos. Fim de Jogo!");
     leitura.close();
+}
 }
 }
