@@ -7,7 +7,7 @@ public class Aula5 {
         System.out.println("Digite a média: ");
         media = leitura.nextDouble();
         if (media>6.0) {
-            System.out.println("Aprovado na disciplina")
+            System.out.println("Aprovado na disciplina");
         }
         leitura.close();
     }
